@@ -16,8 +16,7 @@
 
 
 .marg {
-  margin: 0 50px;
-  margin-top: 80px;
+  margin: 20px 50px;
 }
 .text-footer{
   margin-top: 5%;
@@ -30,7 +29,7 @@
   display: inline-block;
 }
 
-.text-center {
+.mrg-left {
   margin-left: 13%;
 }
 
@@ -44,4 +43,8 @@
 
 .margin-left{
   margin-left: 29%;
+}
+
+.pagination{
+  margin-left: 5%;
 }

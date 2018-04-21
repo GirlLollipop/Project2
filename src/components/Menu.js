@@ -7,6 +7,11 @@ class Menu extends Component {
   render() {
     return (
       <section className="marg">
+      <nav aria-label="Page navigation example">
+    <ul className="pagination">
+      <li className="page-item"><Link to="/Perfil">Previous</Link></li>
+    </ul>
+      </nav>
       <container className="container">
         <button type="button" className="btn btn-primary btn-lg btn-block"><Link className="twhite" to="/CtaPerfiles">Cuenta perfiles</Link></button>
         <button type="button" className="btn btn-primary btn-lg btn-block">Cuenta nómina</button>
