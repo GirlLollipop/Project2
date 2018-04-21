@@ -7,8 +7,32 @@
 }
 
 .footer{
+  background: linear-gradient(to bottom, #4c9cce 0%,#53a9e0 1%,#58b4ed 2%,#5bbbf7 4%,#5dbefb 5%,#5dbefb 19%,#53adee 32%,#2c66ac 69%,#285fa5 75%,#205194 85%,#1b467e 100%);
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 8vh;
+}
+
+.text-footer{
+  margin-top: 5%;
+  color:#eeedf2;
+  font-weight: bold;
+}
+
+.footer-link{
+  list-style: none;
+  display: inline-block;
+}
+
+.text-center {
+  margin-left: 13%;
+}
+
+.right-center {
+  margin-left: 20%;
+}
+
+.text-margintop{
+  margin-top: 7%;
 }

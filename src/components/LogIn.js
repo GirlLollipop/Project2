@@ -16,14 +16,14 @@ class LogIn extends Component {
           <section className="">
             <div className="container">
 
-                <h1 className="jumbotron-heading">Ingresa tus datos</h1>
-                  <div className="input-group mb-3">
+              <h1 className="jumbotron-heading text-margintop">Ingresa tus datos</h1>
+              <div className="input-group mb-3 text-margintop">
                     <input type="text" className="form-control" placeholder="Número de cliente" aria-label="Username" aria-describedby="basic-addon1"/>
                   </div>
                   <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1"/>
                   </div>
-                <button type="button" className="btn btn-primary"><Link className="twhite" to="/Home">Entrar</Link></button>
+              <button type="button" className="btn btn-primary text-margintop"><Link className="twhite" to="/Home">Entrar</Link></button>
             </div>
           </section>
         )
