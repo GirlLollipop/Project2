@@ -8,7 +8,7 @@ class Menu extends Component {
     return (
       <section className="marg">
       <container className="container">
-        <button type="button" className="btn btn-primary btn-lg btn-block">Cuenta perfiles</button>
+        <button type="button" className="btn btn-primary btn-lg btn-block"><Link className="twhite" to="/CtaPerfiles">Cuenta perfiles</Link></button>
         <button type="button" className="btn btn-primary btn-lg btn-block">Cuenta nómina</button>
       </container>
       <container className="container">

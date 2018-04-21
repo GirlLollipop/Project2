@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Home extends Component {
+class CtaPerfiles extends Component {
   render() {
     return (
       <div className="Home">
@@ -23,4 +23,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default CtaPerfiles;
