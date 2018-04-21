@@ -11,7 +11,7 @@ class Perfil extends Component {
         <h1 className="jumbotron-heading">¡Bienvenida!</h1>
       </div>
           <container className="container">
-            <button type="button" className="btn btn-primary btn-lg btn-block">Tu Afore</button>
+            <button type="button" className="btn btn-primary btn-lg btn-block"><Link className="twhite" to="/TuAfore">Tu Afore</Link></button>
             <button type="button" className="btn btn-primary btn-lg btn-block"><Link className="twhite" to="/Menu">Tus cuentas</Link></button>
           </container>
           <container className="container">
