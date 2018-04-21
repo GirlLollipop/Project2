@@ -7,8 +7,13 @@ class TuAfore extends Component {
   render() {
     return (
       <section className="marg">
+      <nav aria-label="Page navigation example">
+    <ul className="pagination">
+      <li className="page-item"><Link to="/Perfil">Previous</Link></li>
+    </ul>
+      </nav>
       <container className="container">
-        <button type="button" className="btn btn-primary btn-lg btn-block">Calcula tu pension</button>
+        <button type="button" className="btn btn-primary btn-lg btn-block"><Link className="twhite" to="/calculaPension">Calcula tu pension</Link></button>
         <button type="button" className="btn btn-primary btn-lg btn-block">Consulta tu saldo</button>
         <button type="button" className="btn btn-primary btn-lg btn-block">Solicita retiro</button>
       </container>

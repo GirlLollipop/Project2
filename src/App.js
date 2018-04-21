@@ -7,6 +7,8 @@ import LogIn from './components/LogIn.js'; // importo componente de LogIn
 import Menu from './components/Menu.js';
 import Perfil from './components/Perfil.js';
 import TuAfore from './components/TuAfore.js';
+import calculaPension from './components/calculaPension.js';
+
 import Logo from './components/images/logo-aforex.png';
 import './components/style/Style.css';
 
@@ -35,13 +37,14 @@ class App extends Component {
         <Route component={Perfil} path="/Perfil" />
         <Route component={Menu} path="/Menu"/>
         <Route component={TuAfore} path="/TuAfore"/>
+        <Route component={calculaPension} path="/calculaPension"/>
 
       </Switch>
 
       <footer className="footer">
       <div className="container">
             <li className="text-footer footer-link"> Sucursales</li>
-            <li className="text-footer footer-link text-center">Preferencias</li>
+            <li className="text-footer footer-link mrg-left">Preferencias</li>
             <li className="text-footer footer-link right-center">Ayuda</li>
       </div>
     </footer>
