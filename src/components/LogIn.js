@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import './style/Style.css';
 
 
 class LogIn extends Component {
     render(){
-        let imgStyle = {
-            width: '200px',
-            height: 'auto',
-            // borderRadius: '90px',
-            display: 'block',
-            margin: '50px auto',
-        }
+        // let imgStyle = {
+        //     width: '200px',
+        //     height: 'auto',
+        //     // borderRadius: '90px',
+        //     display: 'block',
+        //     margin: '50px auto',
+        // }
         return(
           <section className="">
             <div className="container">
-              <img style={imgStyle} src="https://files.paredro.com/uploads/2016/10/CITIBANAMEX-01.jpg" />
-                <h1 className="jumbotron-heading">Ingresa tu número de cliente</h1>
+
+                <h1 className="jumbotron-heading">Ingresa tus datos</h1>
                   <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Número de cliente" aria-label="Username" aria-describedby="basic-addon1"/>
                   </div>
-                <button type="button" className="btn btn-primary"><Link to="/Home">Entrar</Link></button>
+                  <div className="input-group mb-3">
+                    <input type="text" className="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1"/>
+                  </div>
+                <button type="button" className="btn btn-primary"><Link className="twhite" to="/Home">Entrar</Link></button>
             </div>
           </section>
         )
