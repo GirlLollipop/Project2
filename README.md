@@ -14,7 +14,7 @@ El código deberá de ser depositado en un repo público como Github
 
 Atraer a los jòvenes de entre 18 y 35 años para fomentarles el hàbito del ahorro para su retiro al ofrecerles una forma fàcil y sencilla de llevar el control de su dinero a la vez que asegura el ahorro por medio de un sistema programado.
 
-![aforex.jpg](aforex.jpg)
+<!-- ![aforex.jpg](aforex.jpg) -->
 
 ## FLUJO DE TRABAJO
 
@@ -53,3 +53,18 @@ Al no haber un aplicaciòn previa se tomaron en consideraciòn los puntos que en
     * Atraer a los jòvenes al uso de la aplicaciòn a traves de su promociòn en redes sociales
     * Brindarles informaciòn sobre las ventajas del ahorro para el retiro en edad temprana
     *Registro de sus cuentas en la app para retiro automatico del monto fijado por ellos para la utilizaciòn en su AFORE CI
+
+### INSIGHTS
+
+![aforex.jpg](src/componentes/images/aforex.jpg)
+
+### BACKLOG
+
+
+## CONCLUSIONES
+
+AFOREX viene a cubrir las necesidades de un grupo que presenta unvulnerabilidad al ser un sector de riesgo a futuro que puede ver menguadsu calidad de vida por falta de recursos necesarios para sostenerla.
+
+AFOREX presenta una navegaciòn amigable e intuitiva que facilita litneracciòn del usuario y promueve el ahorro programado para el retiro eun dispositivo de fàcil acceso para esta generaciòn.
+
+Estamos convencidas que AFOREX es un producto escalable, redituable y qumejora la experiencia de usuario de los clientes con el banco.
