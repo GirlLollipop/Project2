@@ -23,7 +23,7 @@ class LogIn extends Component {
                   <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Contraseña" aria-label="Username" aria-describedby="basic-addon1"/>
                   </div>
-                <button type="button" className="btn btn-primary"><Link className="twhite" to="/Home">Entrar</Link></button>
+                <button type="button" className="btn btn-primary"><Link className="twhite" to="/Perfil">Entrar</Link></button>
             </div>
           </section>
         )
