@@ -18,17 +18,13 @@ class AddAccount extends Component {
                 </div>
                 <span className="breadcrumb-item active" aria-current="page"> ******1718 </span>
                 <div>
-                    <span className="breadcrumb-item active" aria-current="page"> Ingresa tu NIP </span> 
-                    <br/>
+                    <span className="breadcrumb-item active" aria-current="page"> Ingresa tu NIP </span>
+                    <br />
                     <span className="breadcrumb-item active" aria-current="page"> **** </span>
-            
+
                 </div>
-
-
             </div>
-            
         );
     }
 }
-
-export default AddAccount;
+    export default AddAccount;
