@@ -56,7 +56,7 @@ Al no haber un aplicaciòn previa se tomaron en consideraciòn los puntos que en
 
 ### INSIGHTS
 
-![aforex.jpg](src/componentes/images/aforex.jpg)
+![aforex.jpg](src/components/images/aforex.jpg)
 
 ### BACKLOG
 
@@ -68,3 +68,10 @@ AFOREX viene a cubrir las necesidades de un grupo que presenta unvulnerabilidad 
 AFOREX presenta una navegaciòn amigable e intuitiva que facilita litneracciòn del usuario y promueve el ahorro programado para el retiro eun dispositivo de fàcil acceso para esta generaciòn.
 
 Estamos convencidas que AFOREX es un producto escalable, redituable y qumejora la experiencia de usuario de los clientes con el banco.
+
+## Colaboradores:
+
+* Angelica Fuentes
+* Diana Golmenero
+* Elzbeth Blanco
+* Jessy Cuevas
