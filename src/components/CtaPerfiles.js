@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 
 class CtaPerfiles extends Component {
   render() {
     return (
-      <div className="Home">
+      <section className="marg">
+      <nav aria-label="Page navigation example">
+    <ul className="pagination">
+      <li className="page-item"><Link to="/Menu">Previous</Link></li>
+    </ul>
+      </nav>
 
         <div id="accordion">
           <div className="card">
@@ -18,7 +25,7 @@ class CtaPerfiles extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

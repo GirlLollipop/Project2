@@ -2,7 +2,7 @@
   "name": "reto-banamex-mixto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GirlLollipop.github.io/Reto-Banamex-Mixto/",
+  "homepage": "https://DianaColm.github.io/Reto-Banamex-Mixto/",
   "dependencies": {
     "google-maps-react": "^2.0.0",
     "react": "^16.3.2",
@@ -22,6 +22,7 @@
     "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+
   },
   "devDependencies": {
     "bootstrap": "^4.1.0",
