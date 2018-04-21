@@ -4,8 +4,6 @@ import { Route, Switch } from "react-router-dom"; //hay que importar Route y swi
 
 import Home from'./components/Home.js'; // importo componente de Home
 import LogIn from './components/LogIn.js'; // importo componente de LogIn
-import Menu from './components/Menu.js';
-import Perfil from './components/Perfil.js';
 import Logo from './components/images/logo-aforex.png';
 import './components/style/Style.css';
 
@@ -31,9 +29,6 @@ class App extends Component {
       <Switch> //entre los switch escribimos los componentes que van a hacer un "cambio de vista"
         <Route component={LogIn} path="/" exact />
         <Route component={Home} path="/Home" />
-        <Route component={Perfil} path="/Perfil" />
-        <Route component={Menu} path="/Menu"/>
-
       </Switch>
 
       <footer className="footer">
